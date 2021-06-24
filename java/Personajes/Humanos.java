@@ -8,4 +8,5 @@ public class Humanos extends Heroe {
     public void AsignarVida(){
         this.setVida(180);
     }
+    
 }

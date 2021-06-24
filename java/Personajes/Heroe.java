@@ -15,4 +15,5 @@ public class Heroe extends SerVivo {
             setAtaque(no2);
         }
     }
+    
 }

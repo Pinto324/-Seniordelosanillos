@@ -10,4 +10,14 @@ public class Elfo extends Heroe {
     public void AsignarVida(){
         this.setVida(180);
     }
+    @Override
+    public void CalcularAtaque(){
+        int no1 = (int)(Math. random()*100);
+        int no2 = (int)(Math. random()*100);
+        if(no1 > no2){
+            setAtaque(no1);
+        }else{
+            setAtaque(no2);
+        }
+    }
 }

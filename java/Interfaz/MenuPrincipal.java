@@ -1,6 +1,6 @@
 
 package Interfaz;
-
+import Utilidades.*;
 public class MenuPrincipal {
     IngresarDatos I = new IngresarDatos();
     public void MenuImpreso(){
@@ -11,6 +11,9 @@ public class MenuPrincipal {
         do{
         switch(O){
             case 1:
+                Ejercito Partida = new Ejercito();
+                Partida.IngresarNombres();
+                Partida.jugar();
                 break;
             case 0:
                 break;

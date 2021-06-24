@@ -74,4 +74,10 @@ public class SerVivo {
         }
         }while(true);
     }
+
+    @Override
+    public String toString() {
+        return "SerVivo{" + "Nombre=" + Nombre + ", Vida=" + Vida + ", defensa=" + defensa + ", Ataque=" + Ataque + ", Cuerpo=" + Cuerpo + '}';
+    }
+    
 }
